@@ -37,3 +37,5 @@ C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MV
 C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MVCHomeWork_PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\CreatePizza.cshtml.g.cs
 C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MVCHomeWork_PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\DeletePizza.cshtml.g.cs
 C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MVCHomeWork_PizzaApp\obj\Debug\netcoreapp2.1\ASP.NET.MVCHomeWork_PizzaApp.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MVCHomeWork_PizzaApp\obj\Debug\netcoreapp2.1\ASP.NET.MVCHomeWork_PizzaApp.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\MVC\HomeWORK\ASP.NET.MVCHomeWork_PizzaApp\ASP.NET.MVCHomeWork_PizzaApp\obj\Debug\netcoreapp2.1\Razor\Views\Pizza\EditPizza.cshtml.g.cs

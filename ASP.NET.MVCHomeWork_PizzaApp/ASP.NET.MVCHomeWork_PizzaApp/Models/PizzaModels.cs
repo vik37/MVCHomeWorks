@@ -9,7 +9,8 @@ namespace ASP.NET.MVCHomeWork_PizzaApp.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Ingredients { get; set; }
+        //public string Ingredients { get; set; }
+        public List<string> Ingredients { get; set; }
         public string Size { get; set; }
         public double Price { get; set; }
         public string Currency { get; set; }

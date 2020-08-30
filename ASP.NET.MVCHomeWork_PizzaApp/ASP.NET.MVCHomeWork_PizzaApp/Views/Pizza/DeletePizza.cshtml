@@ -26,8 +26,16 @@
         <dt>
             @Html.DisplayNameFor(model => model.Ingredients)
         </dt>
-        <dd>
+        @*<dd>
             @Html.DisplayFor(model => model.Ingredients)
+        </dd>*@
+        <dd>
+            <ul>
+                @foreach (var ingredient in Model.Ingredients)
+                {
+                    <li>@Html.DisplayFor(i => ingredient)</li>
+                }
+            </ul>
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Size)

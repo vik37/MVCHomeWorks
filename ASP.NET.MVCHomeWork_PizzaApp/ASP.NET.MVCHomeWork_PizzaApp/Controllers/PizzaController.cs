@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Web.WebPages;
 using ASP.NET.MVCHomeWork_PizzaApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -40,10 +42,13 @@ namespace ASP.NET.MVCHomeWork_PizzaApp.Controllers
         [Route("CreatePizza")]
         public IActionResult CreatePizza(PizzaModels model)
         {
+            //var ingerdients = model.Ingredients.First();
+            var listOfIngredients = Regex.Split(model.Ingredients.First(), @"\s+").Where(s => s != string.Empty).ToList();
+
             PizzaModels pizza = new PizzaModels()
             {
                 Name = model.Name,
-                Ingredients = model.Ingredients,
+                Ingredients = listOfIngredients,
                 Size = model.Size,
                 Price = model.Price,
                 Currency = model.Currency,
@@ -70,5 +75,7 @@ namespace ASP.NET.MVCHomeWork_PizzaApp.Controllers
             PizzaDB.pizzas.Remove(models);
             return RedirectToAction("Index");
         }
+
+        
     }
 }
