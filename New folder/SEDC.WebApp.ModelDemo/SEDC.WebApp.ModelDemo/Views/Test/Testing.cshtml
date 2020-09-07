@@ -1,0 +1,72 @@
+﻿@model PizzaVM
+
+<div>
+    HTML HELPERS
+
+    => ACTION LINK <=
+
+    @Html.ActionLink("Back to Test Index", "Index")
+
+    @Html.ActionLink("Back to Home", "Index", "Home")
+
+    @Html.ActionLink("Go to item with id 0", "Index", "Home", new { id = 0 })
+
+    <= LABEL =>
+    @Html.Display("Name")
+    @Html.DisplayFor(p => p.Name)
+
+    <= LABEL =>
+    @Html.Label("Name")
+    @Html.LabelFor(x => x.Name)
+
+    <= TEXT BOX <=
+    @Html.TextBox("Price")
+    @Html.TextBoxFor(pizza => pizza.Price)
+
+    <= DROP DOWN LIST =>
+    @Html.DropDownListFor(pizza => pizza.Size, Html.GetEnumSelectList(Model.Size.GetType()))
+    @Html.DropDownListFor(pizza => pizza.Size, Html.GetEnumSelectList(Model.Size.GetType()), "Select a pizza")
+
+    => FORMS <=
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(x => x.Name)
+        @Html.TextBoxFor(x => x.Name)
+        <br />
+        @Html.DropDownListFor(pizza => pizza.Size, Html.GetEnumSelectList(Model.Size.GetType()), "Select a pizza")
+        <br />
+        <button type="submit">Add pizza</button>
+    }
+</div>
+
+    TAG HELPERS
+
+<div>
+    =>  ACTION LINK <=
+
+    <a asp-controller="Test" asp-action="Index">Back to test index</a>
+    <a asp-controller="Home" asp-action="Index">Back to home</a>
+    <a asp-controller="Home" asp-action="Index" asp-route-id="0">Go to item with id</a>
+
+    => Label <=
+    <label asp-for="Name"></label>
+
+    => Drop down list <=
+    <select asp-for="Size" asp-items="Html.GetEnumSelectList<PizzaSize>()"></select>
+    <select asp-for="Size" asp-items="Html.GetEnumSelectList<PizzaSize>()">
+        <option value="">Select a pizza size</option>
+    </select>
+    <form asp-controller="Test" asp-action="Testing" method="post">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <br />
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+        <br />
+        <select asp-for="Size" asp-items="Html.GetEnumSelectList<PizzaSize>()">
+            <option value="">Select a pizza size</option>
+        </select>
+        <br />
+        <button type="submit">Add pizza</button>
+    </form>
+</div>
