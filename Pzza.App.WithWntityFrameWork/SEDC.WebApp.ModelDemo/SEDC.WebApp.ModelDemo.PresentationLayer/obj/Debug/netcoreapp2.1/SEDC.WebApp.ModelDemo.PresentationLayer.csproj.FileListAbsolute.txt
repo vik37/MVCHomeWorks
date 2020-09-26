@@ -1,0 +1,12 @@
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.AssemblyInfo.cs
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.deps.json
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.csproj.CopyComplete
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.PresentationLayer\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.pdb

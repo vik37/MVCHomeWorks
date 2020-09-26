@@ -1,0 +1,12 @@
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.AssemblyInfo.cs
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.deps.json
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.runtimeconfig.json
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.runtimeconfig.dev.json
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.genruntimeconfig.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.DataAccess\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.csprojAssemblyReference.cache

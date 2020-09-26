@@ -1,0 +1,94 @@
+﻿@model PizzaVM
+
+@{ ViewData["Title"] = "PizzaDetails";
+
+    if (ViewBag.isHideBtnRight == "")
+    {
+    <style>
+        .rigthBtn {
+            display: none;
+        }
+    </style> 
+    }
+    if (ViewBag.isHideBtnLeft == "")
+    {
+    <style>
+        .leftBtn {
+            display: none;
+        }
+    </style> 
+    } 
+}
+
+<h2>PIZZA DETAILS</h2>
+
+<div>
+    <h4>VIKTORIUS</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+    <div class="card">
+        <img height="200" src="~/images/@Model.Image" class="card-img-top" alt="...">
+
+    </div>
+</div>
+
+<div class="leftRightBtn">
+    <form method="get">
+        <input type="button" class="rigthBtn" title="Details" value="NEXT" onclick="location.href='@Url.Action("PizzaDetails", "Home", new { id = Model.Id + 1 })'" />
+    </form>
+    <form method="get">
+        <input type="button" class="leftBtn" title="Details" value="BACK" onclick="location.href='@Url.Action("PizzaDetails", "Home", new { id = Model.Id - 1 })'" />
+    </form>
+</div>
+
+
+
+<div>
+    
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<style>
+    .leftRightBtn {
+        position: relative;
+        width: 350px;
+        height: 50px;
+       /* background-color: aqua;*/
+    }
+
+    .rigthBtn {
+        position: absolute;
+        width: 120px;
+        height: 25px;
+        background-color: coral;
+        right: 0px;
+        top: 10px;
+    }
+
+    .leftBtn {
+        position: absolute;
+        width: 120px;
+        height: 25px;
+        background-color: coral;
+        top: 10px;
+    }
+</style>

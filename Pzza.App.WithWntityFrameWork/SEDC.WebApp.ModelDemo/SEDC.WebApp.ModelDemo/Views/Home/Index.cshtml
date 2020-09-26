@@ -1,0 +1,104 @@
+﻿@model List<PizzaVM>
+
+
+@*
+    
+        When we want to overide the layout added in _ViewStart
+    @{
+        Layout = "~/Views/Shared/_MyLayout.cshtml";
+    }
+*@
+@{ 
+    
+}
+
+<style>
+    .pizza-menu {
+        display:inline-flex;
+        flex-wrap: wrap
+    }
+    .underNav {
+        position:relative;
+        width: auto;
+        height: 50px;
+        background-color: darkgrey;
+        border: 6px solid;
+        border-bottom-style: dashed;
+        border-top-style: solid;
+        border-left-style: inset;
+        border-right-style: inset;
+        border-bottom-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+    }
+    .row{
+        
+        width:100%;
+        height:50px;
+       /* background-color:aqua;*/
+       padding-left:30px;
+    }
+
+    .col-lg-1 {
+        /*background-color: bisque;*/
+        margin-left: 10px;
+        text-align:center;
+        padding:10px;
+        width: 200px;
+        height:50px;
+    }
+    .col-lg-2 {
+        /*background-color: brown;*/
+        margin-left: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .col-lg-3 {
+        /*background-color: coral;*/
+        margin-left: 10px;
+        width: 200px;
+        height: 50px;
+    }
+    .col-lg-4 {
+        /*background-color: darkviolet;*/
+        margin-left: 10px;
+        width: 200px;
+        height: 50px;
+    }
+</style>
+<div class="underNav">
+    <div class="container">
+        <div class="row row-cols-4">
+            <div class="col-lg-1">
+                <a asp-controller="Home" asp-action="PizzaDetails" asp-route-id="1">Pizza by details</a>
+            </div>
+            <div class="col-lg-2">
+                <div> Column</div>              
+                
+                   
+            </div>
+            <div class="col-lg-3">Column</div>
+            <div class="col-lg-4">Column</div>
+        </div>
+    </div>
+
+</div>
+<div class="home">
+    <h1>@ViewBag.Title </h1>
+    <h2>@ViewData["Heading"] </h2>
+    <div class="pizza-menu">
+        @foreach (var item in Model)
+        {
+            @*
+            How we use partial view inside this view
+            First parametar is relative path of the partial view
+            Second parametar is model that we want to pass to that partial view
+            *@
+            <partial name="_PizzaCard" model=item />
+            @*
+            @Html.Partial("~View/Shared/_PizzaCard.cshtml", item)
+            *@
+        }
+    </div>
+    
+</div>
+

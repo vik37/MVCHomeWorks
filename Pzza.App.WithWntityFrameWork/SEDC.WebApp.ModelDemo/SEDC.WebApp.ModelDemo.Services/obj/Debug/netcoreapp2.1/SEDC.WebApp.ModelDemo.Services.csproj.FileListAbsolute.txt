@@ -1,0 +1,14 @@
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.deps.json
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.DataAccess.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.csprojAssemblyReference.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.AssemblyInfoInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.AssemblyInfo.cs
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.csproj.CoreCompileInputs.cache
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.csproj.CopyComplete
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.Services.pdb
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.dll
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo.Services\bin\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.PresentationLayer.pdb

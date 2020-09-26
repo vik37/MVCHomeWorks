@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.WebApp.ModelDemo.PresentationLayer\SEDC.WebApp.ModelDemo.PresentationLayer.csproj" />
+  </ItemGroup>
+
+</Project>
