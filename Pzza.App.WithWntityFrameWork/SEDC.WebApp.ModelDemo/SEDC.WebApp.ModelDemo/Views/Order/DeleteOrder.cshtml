@@ -1,0 +1,74 @@
+﻿@model OrderVM
+@{
+    ViewData["Title"] = "DeleteOrder";
+}
+
+<h2>DeleteOrder</h2>
+
+<div>
+    <h4>PIZZA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pizza.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pizza.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pizza.Size)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pizza.Size)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Pizza.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Pizza.Price)
+        </dd>
+    </dl>
+    <div class="card">
+        <img height="200" src="~/images/@Model.Pizza.Image" class="card-img-top" alt="...">
+
+    </div>
+</div>
+
+<div>
+    <h4>USER</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User.FirstName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.FirstName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.User.LastName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.LastName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Phone)
+        </dd>
+    </dl>
+    <div class="btn">
+        <form asp-controller="Order" asp-action="DeleteOrderById" method="post" >
+            <button type="submit" class="btn btn-danger" onclick="confirm('Are you shure? @Model.Pizza.Name')">
+                DELETE
+                </button>
+        </form>
+
+    </div>
+</div>

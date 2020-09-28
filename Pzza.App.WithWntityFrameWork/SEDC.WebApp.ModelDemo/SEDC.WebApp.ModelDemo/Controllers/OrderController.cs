@@ -39,13 +39,25 @@ namespace SEDC.WebApp.ModelDemo.Controllers
             {                
                 return RedirectToAction("Index","Order", new { id = orderModel.Pizza.Id, error = "All fields requied"});
             }
-
+            
             var pizza = _pizzaService.GetPizzaById(orderModel.Pizza.Id);
-            orderModel.Pizza = pizza;
-            _userService.CreateNewUser(orderModel.User);
-            _orderService.CreateNewOrder(orderModel);
+            if (orderModel.Pizza.Size != pizza.Size)
+            {
+                return RedirectToAction("Index", "Order", new
+                {
+                    id = orderModel.Pizza.Id,
+                    error = $"We apologize. We do not currently have pizza {orderModel.Pizza.Name} of this size"
+                });
+            }
+            else
+            {
+                orderModel.Pizza = pizza;
+                _userService.CreateNewUser(orderModel.User);
+                _orderService.CreateNewOrder(orderModel);
+            }
 
-
+           
+            
             return RedirectToAction("OrderMenu");
         }
         
@@ -54,6 +66,20 @@ namespace SEDC.WebApp.ModelDemo.Controllers
             var orders = _orderService.GetAllOrders();
             //var orders = _orderService.GetOrderById(id);
             return View(orders);
+        }
+
+        public IActionResult DeleteOrder(int id)
+        {
+            var order = _orderService.GetOrderById(id);
+            
+            return View(order);                         
+        }
+
+        public IActionResult DeleteOrderById(int id)
+        {
+            _orderService.DeleteExistingOrder(id);
+            _userService.DeleteExistingUser(id);
+            return RedirectToAction("Index");
         }
     }
 }

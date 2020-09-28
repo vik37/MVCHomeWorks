@@ -155,7 +155,7 @@ using SEDC.WebApp.ModelDemo.PresentationLayer.ViewModels;
             WriteLiteral("\n        </dd>\n    </dl>\n    <div class=\"card\">\n        ");
             EndContext();
             BeginContext(936, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "397d452bf48d493aafccd4a25e7c6b50", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "c08defb422704549b2dd7988f6119ad8", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -183,7 +183,7 @@ AddHtmlAttributeValue("", 968, Model.Image, 968, 12, false);
             WriteLiteral("\n\n    </div>\n</div>\n\n<div class=\"leftRightBtn\">\n    ");
             EndContext();
             BeginContext(1065, 198, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "303b1fc468454c1aafb05bd8c19f60e2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9415e4851db94801a26adbbb2093eb36", async() => {
                 BeginContext(1084, 75, true);
                 WriteLiteral("\n        <input type=\"button\" class=\"rigthBtn\" title=\"Details\" value=\"NEXT\"");
                 EndContext();
@@ -219,7 +219,7 @@ WriteAttributeValue("", 1184, Url.Action("PizzaDetails", "Home", new { id = Mode
             WriteLiteral("\n    ");
             EndContext();
             BeginContext(1268, 197, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f79fad3a51094ba5b8f5a349e3967823", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "02acce693e7845928bbd541942564cf6", async() => {
                 BeginContext(1287, 74, true);
                 WriteLiteral("\n        <input type=\"button\" class=\"leftBtn\" title=\"Details\" value=\"BACK\"");
                 EndContext();
@@ -255,7 +255,7 @@ WriteAttributeValue("", 1386, Url.Action("PizzaDetails", "Home", new { id = Mode
             WriteLiteral("\n</div>\n\n\n\n<div>\n    \n    ");
             EndContext();
             BeginContext(1491, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "501491c2746a4f7db17e97417f4fc8f9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da143c004d0643cf989bd1ef61311650", async() => {
                 BeginContext(1513, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

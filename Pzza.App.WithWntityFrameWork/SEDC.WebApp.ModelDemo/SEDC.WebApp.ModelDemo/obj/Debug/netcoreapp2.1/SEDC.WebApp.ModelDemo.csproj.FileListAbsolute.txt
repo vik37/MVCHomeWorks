@@ -47,3 +47,4 @@ C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDem
 C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\SEDC.WebApp.ModelDemo.genruntimeconfig.cache
 C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Pizza.cshtml.g.cs
 C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\PizzaSize.cshtml.g.cs
+C:\Users\vikto\source\repos\MVC\CLASS\SEDC.WebApp.ModelDemo\SEDC.WebApp.ModelDemo\obj\Debug\netcoreapp2.1\Razor\Views\Order\DeleteOrder.cshtml.g.cs

@@ -19,6 +19,8 @@
     @Html.LabelFor(order => order.User.Phone)
     <input asp-for=@Model.User.Phone />
     <hr />
+    @Html.DropDownListFor(x => x.Pizza.Size, Html.GetEnumSelectList(Model.Pizza.Size.GetType()), "Select a pizza")
+    <hr />
     <button type="submit">Make Order</button>
 </form>
 

@@ -18,7 +18,7 @@
         flex-wrap: wrap
     }
     .underNav {
-        position:relative;
+        position: relative;
         width: auto;
         height: 50px;
         background-color: darkgrey;
@@ -29,6 +29,10 @@
         border-right-style: inset;
         border-bottom-right-radius: 80px;
         border-bottom-left-radius: 80px;
+        font-family: Castellar;
+        font-size: 18px;
+        letter-spacing: 3px;
+        font-weight: 700;
     }
     .row{
         
@@ -43,26 +47,33 @@
         margin-left: 10px;
         text-align:center;
         padding:10px;
-        width: 200px;
+        width: 300px;
         height:50px;
+        
     }
     .col-lg-2 {
         /*background-color: brown;*/
         margin-left: 10px;
-        width: 200px;
+        width: 250px;
         height: 50px;
+        text-align: center;
+        padding: 10px;
     }
     .col-lg-3 {
         /*background-color: coral;*/
         margin-left: 10px;
-        width: 200px;
+        width: 250px;
         height: 50px;
+        text-align: center;
+        padding: 10px;
     }
     .col-lg-4 {
         /*background-color: darkviolet;*/
         margin-left: 10px;
-        width: 200px;
+        width: 250px;
         height: 50px;
+        text-align: center;
+        padding: 10px;
     }
 </style>
 <div class="underNav">
@@ -72,9 +83,7 @@
                 <a asp-controller="Home" asp-action="PizzaDetails" asp-route-id="1">Pizza by details</a>
             </div>
             <div class="col-lg-2">
-                <div> Column</div>              
-                
-                   
+                <a asp-controller="Home" asp-action="PizzaSize" asp-route-id="1">Pizza by Size</a>
             </div>
             <div class="col-lg-3">Column</div>
             <div class="col-lg-4">Column</div>

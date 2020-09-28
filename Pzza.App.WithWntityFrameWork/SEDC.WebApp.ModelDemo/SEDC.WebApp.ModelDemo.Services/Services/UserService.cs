@@ -36,5 +36,12 @@ namespace SEDC.WebApp.ModelDemo.Services.Services
             var users = _userRepository.GetAll().Where(user => user.FirstName.ToLower() == name.ToLower()).ToList();
             return UserMapper.UsersToUsersVM(users);
         }
+
+        public string DeleteExistingUser(int id)
+        {
+            int response = _userRepository.Delete(id);
+            if (response == -1) return "Was not successfull, please try again later!";
+            return "Order successfully deleted!";
+        }
     }
 }

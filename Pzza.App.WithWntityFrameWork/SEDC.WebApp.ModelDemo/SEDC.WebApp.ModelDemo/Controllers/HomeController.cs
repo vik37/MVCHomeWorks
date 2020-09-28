@@ -54,13 +54,19 @@ namespace SEDC.WebApp.ModelDemo.Controllers
             
             return View(pizza);
         }
-        public IActionResult PizzaSize(PizzaSize pizzaSize)
+        public IActionResult PizzaSize(int id)
         {
-            var pizza = _pizzaService.GetPizzasBySize(pizzaSize);
+            var pizza = _pizzaService.GetPizzasBySize((PizzaSize)id).ToList();
+
+            if (!pizza.Any())
+            {
+                ViewBag.EmptyText = "We apologize. We do not have it at the moment";
+            }
             //ViewBag.Size = pizzaSize;
             return View(pizza);
         }
-       
+
+        
 
         public IActionResult About()
         {
