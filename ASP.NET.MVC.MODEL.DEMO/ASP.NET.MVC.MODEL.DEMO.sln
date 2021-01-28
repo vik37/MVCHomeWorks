@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET.MVC.MODEL.DEMO", "ASP.NET.MVC.MODEL.DEMO\ASP.NET.MVC.MODEL.DEMO.csproj", "{A81B3142-7F4A-4BD7-BED2-615F6744E895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81B3142-7F4A-4BD7-BED2-615F6744E895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81B3142-7F4A-4BD7-BED2-615F6744E895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81B3142-7F4A-4BD7-BED2-615F6744E895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81B3142-7F4A-4BD7-BED2-615F6744E895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD5BD8A-3A39-4E5A-B63D-AB02E08486C2}
+	EndGlobalSection
+EndGlobal
